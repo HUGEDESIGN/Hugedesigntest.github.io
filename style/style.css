@@ -112,7 +112,7 @@ ul li {
 	.clock {
 
 	position: absolute;										/* Position search box */
-	top: 45%;												/* from top edge */
+	top: 42%;												/* from top edge */
 	left:9%;
 	font-size: 36px;										/* Text size search box */                               /* Font */
 	text-shadow: 0 1px 1px rgba(0,0,0,0.6);
