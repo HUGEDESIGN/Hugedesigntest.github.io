@@ -22,6 +22,13 @@ function search(query){
                 query.replaceChars(" ", "+");
             break;
 
+             case "-s":
+            query = query.substr(3);
+            window.location =
+                "https://soundcloud.com/search" +
+                query.replaceChars(" ", "+");
+            break;
+
         default:
             window.location="https://www.google.com/#q=" +
                 query.replaceChars(" ", "+");
