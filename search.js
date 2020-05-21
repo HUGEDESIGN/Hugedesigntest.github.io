@@ -25,7 +25,7 @@ function search(query){
              case "-s":
             query = query.substr(3);
             window.location =
-                "https://soundcloud.com/search" +
+                "https://soundcloud.com/search?q=" +
                 query.replaceChars(" ", "+");
             break;
 
