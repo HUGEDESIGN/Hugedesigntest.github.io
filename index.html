@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="style/style.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="js/settings.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet"> 
+
+
+
+<!-- Page Title -->
+	<title>Start Page</title>
+
+<style type="text/css">
+body 
+
+{
+    background: url(images/bg-climb.jpg) repeat;
+}
+</style>
+</head>
+<body>
+
+
+	<input id="searchbox" placeholder="Search.." type="text" autofocus="true"  autocomplete="true" data-toggle="tooltip" title="-y Youtube, -s Soundcloud"> 
+</input>
+
+
+<abruzzi>
+
+
+
+Media
+http://www.youtube.com/ || youtube
+http://twitter.com/ || twitter
+http://twitch.tv || twitch
+http://www.facebook.com || facebook
+http://www.twitter.com || twitter
+
+News
+http://www.reuters.com || reuter
+http://www.aftonbladet.se || aftonhoran
+http://www.expressen.se || expressen
+http://www.bbc.co.uk || BBC <3
+
+
+Forums
+http://www.4chan.org/mu || /mu/
+http://www.4chan.org/fit || /fit/
+http://www.4chan.org/pol || /pol/
+http://www.4chan.org/wg || /wg/
+http://www.reddit.com/r/livestreamfails || livestreamfails
+
+
+</abruzzi>
+ 
+<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+
+<script type="text/javascript">
+    
+    $(window).load(function() {
+        $('#slider').nivoSlider({ borderRadius: 5 });
+    });   
+</script>
+<script type="text/javascript">
+$('body').hide();
+$('body').fadeIn(2000);
+</script>
+
+<script type="text/javascript">
+	if(showDate) {
+		// Add empty '#clock' div
+		$('body').append('<div id="date"></div>');
+
+	  // Update clock
+   	setInterval('makeArray()',);
+	}
+</script>
+
+</body>
+<script src="search.js" type="text/javascript"></script>
+</html>
